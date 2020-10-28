@@ -18,3 +18,31 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.register-button {
+  margin-left: 5px;
+  background-color: #42b72a;
+  height: 30px;
+  border: 0px;
+}
+
+.login {
+  padding-right: 40px;
+}
