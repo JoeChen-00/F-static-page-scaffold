@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -32,17 +33,66 @@ ul {
   align-items: center;
 }
 
-.logo {
-  margin-left: 40px;
+.logo-area h1 {
+  margin-left: 400px;
 }
 
-.register-button {
+.logo-area button {
   margin-left: 5px;
   background-color: #42b72a;
   height: 30px;
   border: 0px;
+  color: white;
 }
 
 .login {
-  padding-right: 40px;
+  padding-right: 400px;
+  color: white;
+}
+
+.description {
+  margin-left: 400px;
+}
+
+.category-area {
+  display: flex;
+  justify-content: center;
+}
+
+.category {
+  margin-left: 30px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e9ebee;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.category-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-figure-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.category-figure-description {
+  text-align: center;
+}
+
+.category-start {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #e9ebee;
 }
